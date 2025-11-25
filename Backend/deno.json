@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window", "deno.ns"]
+  },
+
+  "tasks": {},
+
+  "imports": {
+    "@corespeed/zypher": "jsr:@corespeed/zypher@^0.5.1",
+    "playwright": "npm:playwright@^1.56.1",
+    "rxjs-for-await": "npm:rxjs-for-await@^1.0.0"
+  },
+
+  "lint": {
+    "rules": {}
+  },
+
+  "fmt": {
+    "options": {}
+  },
+
+  "env": true,
+  "nodeModulesDir": "auto"
+}
