@@ -10,31 +10,6 @@ This project leverages the **Zypher Agent Framework** to create an intelligent r
 **AI Framework**: Zypher Agent with OpenAI GPT-4o-mini
 **Future Vision**: Expandable to other knowledge bases and research platforms
 
-## Why Zypher Agent?
-
-### What is Zypher?
-
-**Zypher** is an advanced AI agent framework that enables building intelligent, autonomous agents capable of:
-- **Natural Language Understanding**: Interprets user intent from conversational input
-- **Task Orchestration**: Breaks complex requests into executable steps
-- **Tool Integration**: Seamlessly coordinates multiple tools and APIs
-- **Context Management**: Maintains conversation and task context
-- **Adaptive Execution**: Adjusts strategy based on results
-
-### Zypher in This Project
-
-Our implementation uses `ZypherAgent` as the core intelligence layer:
-
-```typescript
-import { ZypherAgent, OpenAIModelProvider } from "@corespeed/zypher";
-
-// Create agent with OpenAI backend
-const agent = new ZypherAgent(context, provider);
-
-// Agent interprets and executes commands
-agent.runTask("search quantum computing", "gpt-4o-mini");
-```
-
 ### Agent Capabilities
 
 The Zypher agent in this project:
